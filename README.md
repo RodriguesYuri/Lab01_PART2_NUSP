@@ -54,11 +54,11 @@ Para facilitar a avaliação da entrega do laboratório, abaixo estão os regist
 
 **Dashboard de BI (Metabase)**
 Visualização do dashboard exploratório final gerado com os insights dos dados da camada Silver:
-![Dashboard](documentation\dashboard.png)
+![Dashboard](documentation/dashboard.png)
 
 **Validação de Dados (Great Expectations)**
 Relatório de qualidade de dados gerado com sucesso após a validação das regras estipuladas para a camada Raw:
-![GX Documatation](documentation\gx_documentation.jpg)
+![GX Documatation](documentation/gx_documentation.jpg)
 
 --
 
