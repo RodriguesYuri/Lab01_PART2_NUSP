@@ -1,0 +1,24 @@
+services:
+  db:
+    image: postgres:15
+    container_name: lab01_postgress
+    environment:
+      - POSTGRES_USER=user_lab
+      - POSTGRES_PASSWORD=password_lab
+      - POSTGRES_DB=nyc_taxi_db
+    ports:
+      - "5432:5432"
+    networks:
+      - lab_network
+
+  app_ingestao:
+    build: .
+    container_name: lab01_python_app
+    depends_on:
+      - db
+    networks:
+      - lab_network
+
+networks:
+  lab_network:
+    driver: bridge

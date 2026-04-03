@@ -1,4 +1,8 @@
 .venv/
 __pycache__/
 *.pyc
-data_lake/*
+data_lake/bronze/*
+data_lake/silver/*
+*logs/
+*data_source/
+kaggle.json
