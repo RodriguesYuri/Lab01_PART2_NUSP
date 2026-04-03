@@ -18,6 +18,18 @@ services:
       - db
     networks:
       - lab_network
+    volumes:
+      - .:/app
+
+  metabase:
+    image: metabase/metabase:latest
+    container_name: lab01_metabase
+    ports:
+      - "3000:3000"
+    networks:
+      - lab_network
+    depends_on:
+      - db
 
 networks:
   lab_network:

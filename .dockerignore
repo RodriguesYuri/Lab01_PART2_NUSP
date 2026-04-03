@@ -1,0 +1,8 @@
+.venv
+venv
+.uv
+__pycache__
+*.pyc
+data_lake/
+.kaggle/
+.git

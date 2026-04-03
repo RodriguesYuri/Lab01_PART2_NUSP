@@ -11,4 +11,6 @@ dependencies = [
     "pyarrow>=23.0.1",
     "sqlalchemy>=2.0.48",
     "kaggle>=2.0.0",
+    "great-expectations<1.0",
+    "jupyter>=1.1.1",
 ]

@@ -6,3 +6,4 @@ data_lake/silver/*
 *logs/
 *data_source/
 kaggle.json
+gx/uncommitted/

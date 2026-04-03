@@ -26,6 +26,7 @@ if __name__ == "__main__":
     run_script("src/transform/transform_silver.py") 
     
     # STEP 3: Database Load (Gold Layer)
+    run_script("src/load/create_schema.py")
     run_script("src/load/load_dim_location.py")
     run_script("src/load/load_fact_trips.py")
     
