@@ -2,7 +2,7 @@
 
 *Read this in other languages: [English](#-english-version) | [Português](#-versão-em-português)*
 
---
+---
 
 ## 🇧🇷 Versão em Português
 
@@ -60,7 +60,7 @@ Visualização do dashboard exploratório final gerado com os insights dos dados
 Relatório de qualidade de dados gerado com sucesso após a validação das regras estipuladas para a camada Raw:
 ![GX Documatation](documentation/gx_documentation.jpg)
 
---
+---
 
 ## 🇺🇸 English Version
 
