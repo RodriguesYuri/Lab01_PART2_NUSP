@@ -109,8 +109,8 @@ To facilitate the evaluation of the lab submission, below are the visual records
 
 **BI Dashboard (Metabase)**
 View of the final exploratory dashboard generated with insights from the Silver and Gold layers data:
-![Dashboard](..\documentation\dashboard.png)
+![Dashboard](documentation/dashboard.png)
 
 **Data Validation (Great Expectations)**
 Data quality report successfully generated after validating the rules established for the Raw layer:
-![GX Documatation](..\documentation\gx_documentation.jpg)
+![GX Documatation](documentation/gx_documentation.jpg)
